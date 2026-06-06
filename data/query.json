@@ -1,0 +1,18 @@
+{'json':'{
+        "command": "SEARCH",
+        "data": {
+            "dscSearch": "",
+            "dscDienststellenname": "",
+            "dscSchulartenSelected": "Keine Auswahl",
+            "dscSchulstatusSelected": "0",
+            "dscSchulaufsichtSelected": "",
+            "dscOrtSelected": "",
+            "dscEntfernung": "",
+            "dscAusbildungsSchulenSelected": "04033050",
+            "dscAusbildungsSchulenSelectedSart": "GYM",
+            "dscPageNumber": "1",
+            "dscPageSize": "500",
+            "dscUnique": "1780383589511"
+        }
+    }'
+}
