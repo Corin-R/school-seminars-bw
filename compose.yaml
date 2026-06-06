@@ -13,3 +13,8 @@ services:
       - CHOKIDAR_USEPOLLING=true
     stdin_open: true
     tty: true
+
+
+networks:
+  proxy-network:
+    external: true
