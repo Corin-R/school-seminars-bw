@@ -1,7 +1,4 @@
-.venv
-*test*
-
-
+old
 # Logs
 logs
 *.log
