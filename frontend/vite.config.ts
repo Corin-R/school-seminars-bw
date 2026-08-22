@@ -16,7 +16,7 @@ export default defineConfig(({  }) => {
       watch: {
         usePolling: true,
       },
-      allowedHosts: [config.VITE_BACKEND_HOST],
+      allowedHosts: [config.VITE_BACKEND_HOST, "schools.horizonglade.com"],
       hmr: {
         host: "localhost",
         port: Number(config.VITE_PORT) || 8080,
