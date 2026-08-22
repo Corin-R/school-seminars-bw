@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://api.schools.horizonglade.com"; // "/api";
+const API_BASE_URL = "/api";
 
 export async function apiFetch<T>(
   path: string,
@@ -10,10 +10,6 @@ export async function apiFetch<T>(
       "Content-Type": "application/json",
       ...options?.headers,
     },
-    body: options?.body && typeof options.body === 'object'
-      ? JSON.stringify(options.body)
-      : options?.body,
-  }
   });
 
   if (!response.ok) {
