@@ -1,4 +1,4 @@
-const API_BASE_URL = "/api";
+const API_BASE_URL = "https://api.schools.horizonglade.com"; // "/api";
 
 export async function apiFetch<T>(
   path: string,
