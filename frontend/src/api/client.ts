@@ -10,6 +10,10 @@ export async function apiFetch<T>(
       "Content-Type": "application/json",
       ...options?.headers,
     },
+    body: options?.body && typeof options.body === 'object'
+      ? JSON.stringify(options.body)
+      : options?.body,
+  }
   });
 
   if (!response.ok) {
